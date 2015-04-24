@@ -78,7 +78,7 @@ class Meh_Action(openerp.addons.web.controllers.main.Action):
                 
                 
             # no groups_id === green light, user group has overlap with groups_id, do_not_eval is only true in js button action call
-            if ((action  and action[0].get('groups_id',[]) == []) and visible_menu_ids) or do_not_eval or action_type == 'ir.actions.client' or not user_groups.isdisjoint(set(action[0].get('groups_id',[]))) :
+            if ((action  and action[0].get('groups_id',[]) == []) and visible_menu_ids) or do_not_eval or action_type in ['ir.actions.report.xml','ir.actions.client'] or not user_groups.isdisjoint(set(action[0].get('groups_id',[]))) :
                     value = openerp.addons.web.controllers.main.clean_action(req, action[0])
         return value
 # vim :expandtab :smartindent :tabstop=4 :softtabstop=4 :shiftwidth=4 :
