@@ -23,7 +23,7 @@
     'name' : 'Action Group', 
     'version' : '1.0', 		
     'author' : 'Mehdi Samadi',	
-    'category' : 'System',
+    'category' : 'Security',
     'sequence' : 100,		
     'website' : 'www.webirani.com',
     'summary' : 'URL Manipulation Patch for Actions',
