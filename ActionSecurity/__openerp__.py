@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name' : 'Action Group', 
+    'name' : 'Action Security', 
     'version' : '1.0', 		
     'author' : 'Mehdi Samadi',	
     'category' : 'System',
