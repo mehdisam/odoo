@@ -21,7 +21,7 @@
 
 {
     'name' : 'Action Group', 
-    'version' : '1.0.1', 		
+    'version' : '1.1', 		
     'author' : 'Mehdi Samadi',	
     'category' : 'Security',
     'sequence' : 100,		
