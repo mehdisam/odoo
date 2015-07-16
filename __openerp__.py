@@ -30,7 +30,7 @@
     'description' : """
     This module prevents user from accessing unauthorized views by manipulating
     URL and restricts an action to its specified groups.
-    Module only allows only actions from visible menu items to be run.
+    Module allows only actions from visible menu items to be run.
     To restrict an action to your_group simply add this line:
         <field name="groups_id" eval="[(6,0,[ref('your_group')])]" />
     to action definition and action only will be available for this group only.
