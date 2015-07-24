@@ -1,4 +1,4 @@
-//  @@@ web_export_view custom JS @@@
+//  @@@ filter by selection JS @@@
 //#############################################################################
 //    
 //    Copyright (C) 2012 Agile Business Group sagl (<http://www.agilebg.com>)
