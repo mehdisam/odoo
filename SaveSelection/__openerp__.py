@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 Domsense srl (<http://www.domsense.com>)
-#    Copyright (C) 2012-2013 Agile Business Group sagl
-#    (<http://www.agilebg.com>)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
@@ -21,14 +18,14 @@
 ##############################################################################
 
 {
-    'name': 'Save Selection',
+    'name': 'Convert Selection To Filter',
     'version': '1.0',
     'category': 'Web',
     'description': """
 FILTER BY SELECTION
 ===============
-This module add a button after 'More' named 'Tools' in all list views and you
-can save you selected records as a search filter.
+This module allows you to convet your selected records in a list view to a 
+search view filter.
 """,
     'author': "Mehdi Samadi    ",
     'website': 'http://www.webirani.co',
