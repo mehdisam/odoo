@@ -21,18 +21,14 @@
 ##############################################################################
 
 {
-    'name': 'Filter By Selection',
+    'name': 'Save Selection',
     'version': '1.0',
     'category': 'Web',
     'description': """
 FILTER BY SELECTION
 ===============
-Sometimes you need to work with couple of records and adding one by one to
-filter could be hard. By using this module you can select your records and
-then filter them and then start to work on them.
-By using this you can save your selections.
-select records from list view then go to Tools->Filter by Selection to add
-a filter to search view that filters all your selected records.
+This module add a button after 'More' named 'Tools' in all list views and you
+can save you selected records as a search filter.
 """,
     'author': "Mehdi Samadi    ",
     'website': 'http://www.webirani.co',
