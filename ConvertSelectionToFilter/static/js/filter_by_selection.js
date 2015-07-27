@@ -19,7 +19,7 @@
 //
 //#############################################################################
 
-openerp.filter_by_selection = function(instance, m) {
+openerp.ConvertSelectionToFilter = function(instance, m) {
 
     var _t = instance.web._t,
     QWeb = instance.web.qweb;
