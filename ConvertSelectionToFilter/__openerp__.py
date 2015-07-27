@@ -19,7 +19,7 @@
 
 {
     'name': 'Convert Selection To Filter',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Web',
     'description': """
 FILTER BY SELECTION
